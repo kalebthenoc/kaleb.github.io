@@ -1,0 +1,10 @@
+<div class="login">
+            <h1 class="loginHeader">Login to J&K Fiesta</h1>
+            <form onsubmit="formSubmit();">
+                <input class="usernameInput" type="text" placeholder="Enter Username" required>
+                <br>
+                <input class="passwordInput" type="password" placeholder="Enter Password" required>
+                <br>
+                <button class="buttonSubmit" type="submit">Submit</button>
+            </form>
+        </div>

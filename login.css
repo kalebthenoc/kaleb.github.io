@@ -1,0 +1,36 @@
+body {
+    background-image: url('https://a-static.besthdwallpaper.com/sunrise-art-wallpaper-1920x1080-81329_48.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.createAccountButton {
+    font-size: 5em;
+    background-color: rgba(254, 254, 254, 0.5);
+    backdrop-filter: blur(1px);
+    border: 1px solid transparent;
+    border-radius: 25px;
+    font-family: monospace;
+    margin-left: 28%;
+    margin-top: 5%;
+    transition: 1s;
+}
+
+.createAccountButton:hover {
+    background-color: rgba(194, 194, 194, 0.5);
+    text-decoration: underline;
+    transition: 1s;
+}
+
+.loginHeader {
+    font-size: 3em;
+    font-family: monospace;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+.loginHeader span {
+    background-color: rgba(254, 254, 254, 0.5);
+    border: 1px solid transparent;
+    border-radius: 10px;
+}

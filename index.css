@@ -1,0 +1,119 @@
+body {
+  background-image: url('https://rare-gallery.com/uploads/posts/549089-nature-landscape.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: sticky;
+  background-attachment: fixed;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.mainheader {
+  font-size: 1.5em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 50px;
+  padding-top: 5px;
+}
+
+.nav {
+  background-color: rgba(255, 255, 255, 0.41);
+  backdrop-filter: blur(1px);
+  width: 101%;
+  position: relative;
+  left: -9px;
+  top: -8px;
+  display: flex;
+  gap: 180px;
+  height: 70px;
+  position: fixed;
+}
+
+.homeButton {
+  width: 150px;
+  background: none;
+  border: none;
+  font-weight: 900;
+  padding-top: 10px;
+  font-size: 1em;
+  transition: 1s;
+  height: 70px;
+}
+
+.homeButton:hover {
+  background-color: rgba(207, 207, 207, 0.5);
+  width: 200px;
+  transition: 1s;
+}
+
+.jarrisButton {
+  width: 150px;
+  background: none;
+  border: none;
+  font-weight: 900;
+  padding-top: 10px;
+  font-size: 1em;
+  transition: 1s;
+  height: 70px
+}
+
+.jarrisButton:hover {
+  background-color: rgba(207, 207, 207, 0.5);
+  width: 200px;
+  transition: 1s;
+}
+
+.kalebButton {
+  width: 150px;
+  background: none;
+  border: none;
+  font-weight: 900;
+  padding-top: 10px;
+  font-size: 1em;
+  transition: 1s;
+  height: 70px;
+}
+
+.kalebButton:hover {
+  background-color: rgba(207, 207, 207, 0.5);
+  width: 200px;
+  transition: 1s;
+}
+
+.gptButton {
+  width: 150px;
+  background: none;
+  border: none;
+  font-weight: 900;
+  padding-top: 10px;
+  font-size: 1em;
+  transition: 1s;
+  height: 70px;
+}
+
+.gptButton:hover {
+  background-color: rgba(207, 207, 207, 0.5);
+  width: 200px;
+  transition: 1s;
+}
+
+.maincontent {
+  padding-top: 200px;
+  text-align: center;
+  width: 50%;
+  overflow: hidden;
+  margin-left: 25%;
+  margin-right: -40%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.welcomeMessage span {
+  background-color: rgba(179, 179, 179, 0.627);
+  border: 1px solid transparent;
+}
+
+.shrockImage {
+  margin-left: 35%;
+  margin-right: -40%;
+}  

@@ -1,0 +1,171 @@
+.JNTstudios {
+  color: #df0e0e;
+  border: double #9cfd00;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  font-weight: 400;
+  font-size: 3em;
+  text-indent: 2em;
+}
+
+
+h1 {
+  text-align: center;
+  color: rgb(5, 8, 31);
+  font-size: 8em;
+  font-weight: 600;
+  font-style: oblique;
+  background-color: rgba(70, 188, 204, 0.5);
+}
+
+h1 span {
+
+  border-top: 6px solid red;
+  border-bottom: 6px solid cyan ;
+  border-left: 6px solid #9cfd00;
+  border-right: 6px solid mediumblue;
+  border-radius: 2em;
+  background: rgb(255, 0, 0);
+  overflow: hidden;
+  text-align: center;
+}
+
+h2 {
+ 
+  border: 6px rgb(59, 19, 5) groove;
+  font-size: 3em;
+  border-color: rgb(101, 224, 255); 
+  background-color: black;
+  color:rgb(156, 68, 68);
+}
+}
+h3 {
+  text-align: center;
+  border: 12px orangered groove;
+  font-size: 2.3em;
+  border-color: yellow; 
+  background-color: black;
+  color:white;
+}
+
+h4 {
+  text-align: left;
+  border: 6px rgb(59, 19, 5) groove;
+  font-size: 3em;
+  border-color: rgb(101, 224, 255); 
+  background-color: black;
+  color:rgb(156, 68, 68);
+}
+
+
+p {
+  font-size: 4em;
+  font-family: monospace;
+  color:rgb(0, 0, 0);
+  border: dotted blue;
+  background-color: rgba(255, 251, 0, 0.5);
+}
+
+#jarris {
+     margin: 3em;
+     font: italic;
+     color: #0ed1df;
+}
+
+.jareld {
+  background-image: url("https://images.pexels.com/photos/443446/pexels-photo-443446.jpeg?auto=compress&cs=tinysrgb&w=1600");
+  background-size: cover;
+}
+
+p span {
+  background-color: rgb(32, 38, 46);
+}
+
+.mainheader {
+  font-size: 1.5em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 50px;
+  padding-top: 5px;
+}
+
+.nav {
+  background-color: rgba(255, 255, 255, 0.41);
+  backdrop-filter: blur(5px);
+  width: 101%;
+  position: relative;
+  left: -9px;
+  top: -8px;
+  display: flex;
+  gap: 180px;
+  height: 70px;
+  position: fixed;
+  z-index: 1;
+}
+
+.homeButton {
+  width: 150px;
+  background: none;
+  border: none;
+  font-weight: 900;
+  padding-top: 10px;
+  font-size: 1em;
+  transition: 1s;
+  height: 70px;
+}
+
+.homeButton:hover {
+  background-color: rgba(207, 207, 207, 0.5);
+  width: 200px;
+  transition: 1s;
+}
+
+.jarrisButton {
+  width: 150px;
+  background: none;
+  border: none;
+  font-weight: 900;
+  padding-top: 10px;
+  font-size: 1em;
+  transition: 1s;
+  height: 70px
+}
+
+.jarrisButton:hover {
+  background-color: rgba(207, 207, 207, 0.5);
+  width: 200px;
+  transition: 1s;
+}
+
+.kalebButton {
+  width: 150px;
+  background: none;
+  border: none;
+  font-weight: 900;
+  padding-top: 10px;
+  font-size: 1em;
+  transition: 1s;
+  height: 70px;
+}
+
+.kalebButton:hover {
+  background-color: rgba(207, 207, 207, 0.5);
+  width: 200px;
+  transition: 1s;
+}
+
+.gptButton {
+  width: 150px;
+  background: none;
+  border: none;
+  font-weight: 900;
+  padding-top: 10px;
+  font-size: 1em;
+  transition: 1s;
+  height: 70px;
+}
+
+.gptButton:hover {
+  background-color: rgba(207, 207, 207, 0.5);
+  width: 200px;
+  transition: 1s;
+}

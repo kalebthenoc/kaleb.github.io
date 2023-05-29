@@ -1,0 +1,35 @@
+<html>
+<head>
+  <title>Jarris & Kaleb | Final Assignment</title>
+  <link rel="stylesheet" href="CSS/mainpageCss/index.css">
+  <link rel="icon" href="https://aux.iconspalace.com/uploads/1790770887215155497.png" type="image/x-icon">
+</head>
+<body>
+  <div class="nav">
+    <h1 class="mainheader">J&K</h1>
+    <a href="index.html"><button class="homeButton">Home</button></a>
+    <a href="jarris.html"><button class="jarrisButton">Jarris' Page</button></a>
+    <a><button class="kalebButton" onclick="rickRoll();">Kaleb's Page</button></a>
+    <a href="ChatGPT.html"><button class="gptButton">ChatGPT's Page</button></a>
+  </div>
+  <div class="maincontent">
+    <h1 class="welcomeMessage"><span>Welcome to the best webpage ever. (don't fact check that). We got the best of 3 worlds here.
+      Firstly we got big papa tasty Jarris. K, secondly we got the man typing this sentence, also big papa tasty Kaleb. K and lastly, the 
+      beep bop boop robot ChatGPT making it's own page. We welcome you to the J&K Fiesta Webpage.</span></h1>
+  </div>
+  <div class="shrockImage">
+    <img src="IMAGES/shrock.png" class="shrockImagePNG">
+  </div>
+  <script>
+    function rickRoll() {
+    let randomNumber = Math.random();
+  
+    if (randomNumber <= 0.5) {
+      window.open('https://www.youtube.com/watch?v=f9qgAOi9Q9E');
+    } else {
+      window.open('kaleb.html');
+    }
+  }
+  </script>
+</body>
+</html>
